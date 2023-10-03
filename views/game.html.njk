@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greetings | Madlibs!</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <h1>WELCOME TO THE GAME!</h1>
+    <p>Please fill out the following information for a funny story!</p>
+
+    <form action="/madlib">
+        <label for="name">What's a person's name?</label>
+        <input type="text" id="name" name="name"/>
+        <br>
+
+        <label for="color">Pick a color!</label>
+            <select name="color" id="color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+            </select>
+        <br>
+
+        <label for="noun">Write out a noun!</label>
+        <input type="text" id="noun" name="noun"/>
+
+        <br>
+
+        <label for="adjective">Write out an adjective!</label>
+        <input type="text" id="adjective" name="adjective"/>
+
+        <br>
+
+        <button type="submit">Create a story!</button>
+    </form>
+
+    </body>
+
+</html>
