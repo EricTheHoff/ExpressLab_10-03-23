@@ -65,7 +65,6 @@ app.get('/game', (req, res) => {
 
 // Generate the madlib
 app.get('/madlib', (req, res) => {
-  console.log(req.query)
   let {name, color, noun, adjective} = req.query
   res.render('madlib.html.njk', {name: name, color: color, noun: noun, adjective: adjective})
 })
